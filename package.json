@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@bazzite/nuxt-netlify": "^0.1.1",
     "bootstrap-vue": "^2.0.0-rc.10",
     "cookieparser": "^0.1.0",
     "js-cookie": "^2.2.0",
