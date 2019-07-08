@@ -53,12 +53,12 @@ export default {
       data: {
         query: `query {
             restaurants {
-              _id
+              id
               name
               description
               image {
                 url
-              }
+              
             }
           }
           `
