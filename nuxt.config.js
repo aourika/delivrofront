@@ -17,8 +17,9 @@ module.exports = {
   // add module
   modules: [
   'bootstrap-vue/nuxt',
-  '@bazzite/nuxt-netlify', { }
+  '@bazzite/nuxt-netlify', 
   ],
+  netlify: { },
   /*
   ** Customize the progress bar color
   */
