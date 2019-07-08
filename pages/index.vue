@@ -53,7 +53,7 @@ export default {
       data: {
         query: `query {
             restaurants {
-              id
+              _id
               name
               description
               image {
@@ -67,7 +67,7 @@ export default {
     response.data.restaurants.forEach(restaurant => {
       restaurant.image.url = `${apiUrl}${restaurant.image.url}`
       store.commit('restaurants/add', {
-        id: restaurant.id,
+        id: restaurant.id || restaurant._id,
         ...restaurant
       })
     })
